@@ -1,49 +1,24 @@
 <html>
 <head>
-<title>My Resume</title>
-  <style>
-    table, th, td{
-      border:1px solid black;
-    }
-  </style>
+<title>Browser Information</title>
 </head>
 <body>
-<h1>            RESUME-CURRICULUM VITAE</h1>
-  <h2>Name & Personal Profile:</h2>
-<h2>Objective:</h2>
-<p>I Would like to work in an environment where I can showcase my skills. </p>
-  <h2>Education:</h2>
-  <table>
-    <tr>
-      <td>S.No.</td>
-      <td>Course</td>
-      <td>year</td>
-      <td>percentage</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>X</td>
-      <td>2015</td>
-      <td>75</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>XII</td>
-      <td>2017</td>
-      <td>90</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>B.tech</td>
-      <td>2021</td>
-      <td>72.21(Till)</td>
-    </tr>
-  </table>
-  <h2>Programming Languages:</h2>
-  <ol><li>C</li>
-    <li>Python</li>
-  </ol>
-  <h2>Strength & Weaknesses:</h2>
-  <h2>Awards & Achievements:</h2>
+<h1>Browser Information</h1>
+<hr>
+<p>
+The <b>navigator</b> object contains the following information about
+the browser you are using.
+</p>
+<ul>
+<script LANGUAGE="JavaScript" type="text/javascript">
+document.write("<li><b>Code Name:</b> " + navigator.appCodeName);
+document.write("<li><b>App Name:</b> " + navigator.appName);
+document.write("<li><b>App Version:</b> " + navigator.appVersion);
+document.write("<li><b>User Agent:</b> " + navigator.userAgent);
+document.write("<li><b>Language:</b> " + navigator.language);
+document.write("<li><b>Platform:</b> " + navigator.platform);
+</script>
+</ul>
+<hr>
 </body>
 </html>
